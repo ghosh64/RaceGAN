@@ -146,7 +146,9 @@ def black_rgb_label_init_guess(label):
 			pred_rgb[h][w][2] = label[h][w][0]
 	return pred_rgb
 
-
+'''
+insert weight and result paths here
+'''
 if __name__ == "__main__":
     batch_size = 8 
     is_red_pred = True

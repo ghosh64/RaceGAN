@@ -90,7 +90,9 @@ def black_rgb_label_init_guess(label):
 			pred_rgb[h][w][2] = label[h][w][0]
 	return pred_rgb
 
-
+'''
+insert weight and result paths here
+'''
 if __name__ == "__main__":
     batch_size = 8 
     num_epochs = 5
@@ -99,9 +101,9 @@ if __name__ == "__main__":
     cuda = "cuda:0"
     
     #weight paths
-    G_weight_path='/home/ghosh64/racegan/weights/delete_this/'
-    D_weight_path='/home/ghosh64/racegan/weights/delete_this/'
-    result_path='/home/ghosh64/racegan/results/delete_this/'
+    G_weight_path=''
+    D_weight_path=''
+    result_path=''
     
     device = torch.device(cuda)
     
