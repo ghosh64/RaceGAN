@@ -10,3 +10,4 @@ test.py tests the model. Code requires trained weights before testing. Specify t
 
 Dataloader:
 
+The two files for the train and test split are available as train.txt and test.txt in the dataset. Specify the absolute path to these files in the dataset class in data.py. Dataset is formatted as expected by the code-to contain a Data/ directory for all images and Labels/ directory for all lane segmentation masks. 

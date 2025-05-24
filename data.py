@@ -8,6 +8,9 @@ from PIL import Image
 import cv2
 import numpy as np
 
+'''
+insert path to train.txt and test.txt here
+'''
 class dataset(Dataset):
     def __init__(self, train=True, test=False,val=False, train_split=0.8, path='', transform=transforms.ToTensor()):
         self.path=path
